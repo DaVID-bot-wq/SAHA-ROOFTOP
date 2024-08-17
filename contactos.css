@@ -1,0 +1,58 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    
+}
+.button {
+        display: inline-block;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 10px;
+    /*
+    }
+    .whatsapp-button {  /*defirnri los colores de fondo     
+        background-color: #25D366; /* Verde de WhatsApp 
+    }
+
+    .whatsapp-button:hover {
+        background-color: #128C7E; /* Verde oscuro 
+    }
+
+    .facebook-button {
+        background-color: #4267B2; /* Azul de Facebook  
+    }
+
+    .facebook-button:hover {
+        background-color: #365899; /* Azul oscuro */
+    }
+    p {
+letter-spacing: -1px; /* Ajusta el valor según tus necesidades */
+}
+.contenedor {
+display: flex;
+flex-direction: column; /* Alinea los elementos verticalmente */
+gap: 10px; /* Espacio entre elementos (ajusta según tus necesidades) */
+}
+
+.container{
+    display: flex;
+    grid-column-gap: 100px;
+    text-align: center;
+}
+
+.logofr{
+    position: relative;
+    border-radius: 70%;
+    width: 100px;
+    height: 500px;
+}
+
+.logofr>p{
+    text-align: left;
+}

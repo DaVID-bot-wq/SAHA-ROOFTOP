@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    }
+
+/*.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    
+}
+
+.texto{
+    color: rgb(183, 249, 253);
+    position: absolute;
+    top: 40px;
+    left: 7
+    0px;
+
+}*/

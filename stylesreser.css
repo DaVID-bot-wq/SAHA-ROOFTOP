@@ -1,0 +1,47 @@
+html{
+    height: 100%;
+    margin: 0;
+    margin-top: 0%;
+}
+body { 
+    position: relative; /*para poner la imagen de fondo*/
+    background: url('imagenes/fondo_reservas.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 30px;
+    
+    
+
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Cambia el color y el valor de opacidad según tus necesidades */
+    z-index: -1; /* Asegúrate de que el pseudo-elemento esté detrás del contenido del body */
+    
+}
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: rgb(133, 108, 62);
+    text-align: center;
+}
+.container{
+    display: flex;    
+    justify-content: center;
+    text-align: justify;
+}
+
+.verifica{
+    text-align: justify;
+    margin-left: 40%;
+}
