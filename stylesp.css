@@ -3,7 +3,18 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  header .container {
+    width: autox;
+    display: flex;
+    align-items: left;
+}
+
+header .sashaL {
+    max-height: 7em;
+    border-radius: 100%;
+}
+
   body {
     font-family: "Work Sans", sans-serif;
     background-image:linear-gradient(rgb(231, 220, 217), rgb(0, 0, 0));
